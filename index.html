@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700;900&amp;display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="icomoon/style.css" />
+  <title>Red Sea</title>
+  <link rel="icon" href="Images/pass.png" type="image/icon type" />
+</head>
+
+<body>
+  <div id="carousel-Indicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <label class="menu__btn2 " for="menu__toggle">
+        <span></span>
+      </label>
+
+      <ul class="menu__box">
+        <li><a class="menu__item" href="#">Home</a></li>
+        <li><a class="menu__item" href="#">Support</a></li>
+        <li><a class="menu__item" href="#">Downloads</a></li>
+        <li><a class="menu__item" href="#">About</a></li>
+        <li><a class="menu__item" href="#">Armoury</a></li>
+      </ul>
+    </div>
+
+    <div id="navbar">
+
+      <div id="nav-left">
+        <div id="logo-div">
+          <img src="Images/text-1678164580422.png" id="logox" alt="" />
+          <img src="Images/pass.png" id="logo-pic" alt="" />
+        </div>
+
+
+        <ul class="nav-menu list-unstyled">
+          <li class="nav-inner"><a class="nav-anchor" href="#">Home</a>
+          </li>
+          <li class="nav-inner"> <a class="nav-anchor" href="#">Support</a>
+          </li>
+          <li class="nav-inner"> <a class="nav-anchor" href="#">Downloads</a>
+          </li>
+          </li>
+          <div class="dropdown">
+            <ul class="btn-primary dropdown-toggle" type="li" data-bs-toggle="dropdown">
+              Armoury</ul>
+            <ul class="dropdown-menu">
+              <p>Navigate through our armoury and find what you need about our players!</p>
+              <li><a class="dropdown-item" href="#">Player Ranking<p class="dropdown-text">Ranked by itempoints, judged
+                    by The Captain.</p></a></li>
+              <li><a class="dropdown-item" href="#">Unique Tracker<p class="dropdown-text">Is that you yeh? Uniques are
+                    really not that unique.</p></a></li>
+              <li><a class="dropdown-item" href="#">Fortress History<p class="dropdown-text">We write our own history,
+                    battle into history.</p></a></li>
+            </ul>
+          </div>
+
+        </ul>
+
+
+
+
+        <a href="#"><img id="logo-img"
+            src="Images/pngtree-search-vector-icon-with-transparent-background-png-image_1836025.jpg" alt="" /></a>
+        <a href="#"><button id="reg-btn">Register</button></a>
+        <a href="#"><button id="log-btn">Login</button></a>
+      </div>
+    </div>
+
+
+
+
+    <div id="nav-leftside">
+      <a href="#"><button id="register-btn">Register</button></a>
+      <a href="#"><button id="login-btn">Login</button></a>
+    </div>
+
+
+
+    <div class="ServerStats">
+      <div class="ServerStats__time">
+        <span class="ServerStats__title">Captain's clock</span>
+        <span class="ServerStats__stat" id="idTimerClock">09:49:57</span>
+      </div>
+      <div class="ServerStats__players">
+        <span class="ServerStats__title">Explorers on board</span>
+        <span class="Divider"></span>
+        <div class="js-liveCounter">
+          <span class="ServerStats__stat d-flex align-items-center">
+            <div class="led-box Blob--medium mr-3 d-flex align-items-center">
+              <div class="circle"></div>
+              2496 / 2850
+          </span>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Images/main_bg.png" class="d-block w-100" alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="Images/slide-3.png" class="d-block w-100 h-350px" alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="Images/main-bg-23.png" class="d-block w-100" alt="..." />
+
+    </div>
+
+
+  </div>
+
+
+  </div>
+  <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(16,16,16,0.7)" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(16,16,16,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(16,16,16,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(25,88,105,1)" />
+      </g>
+    </svg>
+  </div>
+  </div>
+
+  </div>
+
+ <!-- end of header section -->
+
+
+  <!-- content section -->
+  <div class="container-fluid mt-4 mb-4">
+    <div class="row">
+      <div class="col-12 col-lg-3">
+        <div class="News News--usp" style="
+          background: url('/iloveimg-resized/theoriginal.png');
+          background-size: cover;
+        ">
+          <div class="News__block News__block--usp">
+            <div class="News__content News__content--usp">
+              <span class="News__meta News__meta--usp">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-3">
+        <div class="News News--usp" style="
+          background: url('/Images/silkr-a.jpg');
+          background-size: cover;
+        ">
+          <div class="News__block News__block--usp">
+            <div class="News__content News__content--usp">
+              <span class="News__meta News__meta--usp">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-3">
+        <div class="News News--usp" style="
+          background: url('/Images/picx3.png');
+          background-size: cover;
+        ">
+          <div class="News__block News__block--usp">
+            <div class="News__content News__content--usp">
+              <span class="News__meta News__meta--usp">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-3">
+        <div class="News News--usp" style="
+          background: url('/Images/The.png');
+          background-size: cover;
+        ">
+          <div class="News__block News__block--usp">
+            <div class="News__content News__content--usp">
+              <span class="News__meta News__meta--usp">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-lg-3">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <a href="#" class="content-block content-block--widgetTable" style="
+                background: url('/Images/preview.jpg');
+                background-size: cover;
+              ">
+              <div class="content-block__inner-content">
+                <span class="title">Game<br>Details</span>
+              </div>
+            </a>
+
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <a href="#" class="content-block content-block--widgetTable" style="
+              background: url('/Images/widget_timer_bg.png');
+              background-size: cover;
+            ">
+              <div class="content-block__inner-content">
+                <span class="title">Red<br>Points</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <a href="#" class="content-block content-block--widgetTable" style="
+          background: url('/Images/pricing-background.png');
+          background-size: cover;
+        ">
+          <div class="content-block__inner-content">
+            <span class="title">Buy coins, stand out!</span>
+          </div>
+        </a>
+
+        <div class="content-block content-block--dark">
+          <div class="content-block__inner-content">
+            <span class="content-block__title content-block__title--light">Unique Tracker</span>
+            <hr class="Line Line--dark" />
+            <div class="spawnedUniques">
+              <ul class="list-unstyled m-0">
+                <li>
+                  <div class="uniqueList uniqueList--dark">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="uniqueList__image">
+                          <img src="Images/unique_img_neith_1080.png" class="align-self-center mr-3 img-fluid"
+                            alt="Neith">
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <span
+                            class="m-0 uniqueList__uniqueName uniqueList__uniqueName--light js-uniqueName">Neith</span>
+                          <div class="Blob Blob--danger Blob--small"></div>
+                        </div>
+
+                        <small class="">
+                          Last killer <strong>Carlinhus</strong>
+                        </small>
+
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="uniqueList uniqueList--dark">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="uniqueList__image">
+                          <img src="Images/unique_img_isyutaru_1080.png" class="align-self-center mr-3 img-fluid"
+                            alt="Isyutaru">
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <span
+                            class="m-0 uniqueList__uniqueName uniqueList__uniqueName--light js-uniqueName">Isyutaru</span>
+                          <div class="Blob Blob--success Blob--small"></div>
+                        </div>
+
+                        <small class="">
+                          Last killer <strong>Matlida</strong>
+                        </small>
+
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="uniqueList uniqueList--dark">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="uniqueList__image">
+                          <img src="Images/unique_img_beakyung_1080.png" class="align-self-center mr-3 img-fluid"
+                            alt="Demon Shaitan">
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <span class="m-0 uniqueList__uniqueName uniqueList__uniqueName--light">Medusa</span>
+                          <div class="Blob Blob--danger Blob--small"></div>
+                        </div>
+
+                        <small class="">Last killer <strong>Reason</strong></small>
+
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="uniqueList uniqueList--dark">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="uniqueList__image">
+                          <img src="Images/eventtimes.png" class="align-self-center mr-3 img-fluid" alt="Demon Shaitan">
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <span
+                            class="m-0 uniqueList__uniqueName uniqueList__uniqueName--light js-uniqueName">Seth</span>
+                          <div class="Blob Blob--success Blob--small"></div>
+                        </div>
+
+                        <small class="">
+                          Last killer <strong>Denise</strong>
+                        </small>
+
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="uniqueList uniqueList--dark">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="uniqueList__image">
+                          <img src="Images/unique_img_shaitan_1080.png" class="align-self-center mr-3 img-fluid"
+                            alt="Uruchi">
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <span
+                            class="m-0 uniqueList__uniqueName uniqueList__uniqueName--light js-uniqueName">Shaitan</span>
+                          <div class="Blob Blob--danger Blob--small"></div>
+                        </div>
+
+                        <small class="">Last killer <strong>Beast</strong></small>
+
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="content-block__ctaInformation content-block__ctaInformation--dark"></div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div class="content-block content-block--dark">
+          <div class="content-block__inner-content">
+            <span class="content-block__title content-block__title--light">1st Season of Red Sea Pass is
+              coming!</span>
+            <small class="content-block__date">19.02.2023</small>
+            <div class="clearfix"></div>
+            <hr class="Line Line--dark" />
+            <p>
+              Since it took longer than expected, we believe you all deserve
+              to have a sneak peek at the new visuals coming!
+            </p>
+            <p>
+              <strong>We are presenting you our very NEW job suits (never
+                implemented in the game before).</strong>
+            </p>
+            <p>
+              <img src="Images/fantasy-art.jpg" alt="" width="100%" height="300" />
+            </p>
+
+            <p>
+              <em>Note that both European and Chinese characters use the same
+                job suits.</em>
+            </p>
+          </div>
+
+          <div class="content-block__ctaInformation content-block__ctaInformation--dark">
+            <div class="row">
+              <div class="col">
+                <ul class="list-inline m-0">
+                  <li class="list-inline-item">
+                    <small class="text-muted">Tags</small>
+                  </li>
+                  <li class="list-inline-item">
+                    <span class="badge badge-danger">Announcement</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-block content-block--dark">
+          <div class="content-block__inner-content">
+            <span class="content-block__title content-block__title--light">Red Sea Online: 7 Seas returns with the
+              biggest 100 CAP
+              expansion!</span>
+            <small class="content-block__date">12.01.2023</small>
+            <div class="clearfix"></div>
+            <hr class="Line Line--dark" />
+            <p>
+              <strong><img src="Images/the-elder.jpg" alt="" width="100%" height="219" /></strong>
+            </p>
+            <p>
+              <strong>Can you believe it? After all this waiting time, Red Sea
+                (100 CAP) is being released this Friday!</strong>
+            </p>
+
+            <p>
+              Ready to prove to this scene that players are not to blame for
+              servers dying in a month, to prove that servers away from shady
+              deals can have even better competition, and to also prove that
+              being innovative and hard-working is still being rewarded! In
+              the very end, you are a big part of why 7 Seas and in general
+              Sailor servers are timeless.
+            </p>
+            <p>
+              <strong>Be sure, you're all on the right side of this game's
+                history!</strong>
+            </p>
+          </div>
+
+          <div class="content-block__ctaInformation content-block__ctaInformation--dark">
+            <div class="row">
+              <div class="col">
+                <ul class="list-inline m-0">
+                  <li class="list-inline-item">
+                    <small class="text-muted">Tags</small>
+                  </li>
+                  <li class="list-inline-item">
+                    <span class="badge badge-danger">Announcement</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-3">
+        <div class="row mt-4">
+          <div class="col-12">
+            <div class="TrackerList TrackerList--levelBattle mb-4 TrackerList--levelBattle--primary">
+              <div class="TrackerList__image--levelBattleWidget even">
+                <img src="Images/number-one.png" class="align-self-center mr-3 img-fluid" alt="" />
+              </div>
+
+              <div class="TrackerList__item--levelBattle TrackerList__item--levelBattle--dark first" style="
+                background-image: linear-gradient(
+                    to bottom,
+                    rgba(60, 246, 226, 0.31),
+                    rgba(111, 117, 19, 0.5)
+                  ),
+                  url(Images/levelbattle-background-1.png);
+              ">
+                <span class="m-0 TrackerList__name--levelBattle first">
+                  Vargrym
+                </span>
+                <p class="m-0 TrackerList__value--levelBattle">
+                  Currently level 100
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="TrackerList TrackerList--levelBattle mt-4">
+              <div class="TrackerList__image--levelBattleWidget small">
+                <img src="Images/number-2.png" class="align-self-center img-fluid" alt="" />
+              </div>
+
+              <div class="TrackerList__item--levelBattle TrackerList__item--levelBattle--dark small" style="
+                background-image: linear-gradient(
+                    to bottom,
+                    rgba(60, 246, 226, 0.31),
+                    rgba(111, 117, 19, 0.5)
+                  ),
+                  url(Images/regPageShell.png);
+              ">
+                <span class="m-0 TrackerList__name--levelBattle small">
+                  Uiopchzx
+                </span>
+                <p class="m-0 TrackerList__value--levelBattle">
+                  Currently level 98
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="TrackerList TrackerList--levelBattle mt-4">
+              <div class="TrackerList__image--levelBattleWidget small">
+                <img src="Images/number-3.png" class="align-self-center img-fluid" alt="" />
+              </div>
+
+              <div class="TrackerList__item--levelBattle TrackerList__item--levelBattle--dark small" style="
+                background-image: linear-gradient(
+                    to bottom,
+                    rgba(60, 246, 226, 0.31),
+                    rgba(111, 117, 19, 0.5)
+                  ),
+                  url(Images/levelbattle-background-3.png);
+              ">
+                <span class="m-0 TrackerList__name--levelBattle small">
+                  Delirium
+                </span>
+                <p class="m-0 TrackerList__value--levelBattle">
+                  Currently level 96
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="content-block content-block--dark content-block--small">
+              <i class="icon-lightbulb-o text-dark m-2"></i>
+              <span class="d-inline-block ml-3"> Check out the full ranking
+              </span>
+              <a href="#" class="d-inline-block text-light font-weight-bold m-1"> here</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-12">
+            <div class="TrackerList TrackerList--levelBattle mb-4">
+              <div class="TrackerList__image--fortressWidget even">
+                <img src="Images/fortress-3 (1).png" class="align-self-center mr-3 img-fluid" alt="" />
+              </div>
+
+              <div class="TrackerList__item--levelBattle TrackerList__item--levelBattle--dark first" style="
+                background-image: linear-gradient(
+                    to bottom,
+                    rgba(60, 246, 226, 0.31),
+                    rgba(111, 117, 19, 0.5)
+                  ),
+                  url(Images/fortress-3.png);
+              ">
+                <span class="m-0">
+                  Invasion
+                </span>
+                <p class="m-0">
+                  <a href="#"
+                    class="btn btn-secondary mt-3">History</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="content-block content-block--dark content-block--small">
+              <i class="icon-lightbulb-o text-dark m-2"></i>
+              <span class="d-inline-block ml-3"> Keep up with more
+              </span>
+              <a href="#" class="d-inline-block text-light font-weight-bold m-1"> here</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-block content-block--dark">
+          <div class="content-block__inner-content pb-3">
+            <span class="content-block__title content-block__title--light">Global Tracking</span>
+            <hr class="Line Line--dark" />
+            <div class="js-globalChats">
+              <ul class="list-unstyled m-0">
+                <li>
+                  <div class="TrackerList TrackerList--globals TrackerList--dark">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="TrackerList__image--global">
+                          <div style="position: absolute; width: 120%; top: -5px; left: -5px;">
+                            <img src="Images/14724.gif" class="WTS align-self-center mr-2 img-fluid" alt="Sophisticated">
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="TrackerList__item--global">
+                          <span class="m-0 TrackerList__name--global">
+                            Sophisticated
+                          </span>
+                          <p class="m-0 TrackerList__value--global">WTS 2k silk & 1B gold. PM me offers.</p>
+                          <small class="d-block mt-1">
+                            Sent 3 minutes ago
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="TrackerList TrackerList--globals TrackerList--dark">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="TrackerList__image--global">
+                          <div style="position: absolute; width: 120%;top: -5px; left: -5px;">
+                            <img src="Images/14733.gif" class="WTS align-self-center mr-3 img-fluid" alt="Matilda">
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="TrackerList__item--global">
+                          <span class="m-0 TrackerList__name--global">
+                            Matilda
+                          </span>
+                          <p class="m-0 TrackerList__value--global">WTB SoS EU ring, PM me price. Cheers!</p>
+                          <small class="font-weight-bold d-block mt-1">
+                            Sent 4 minutes ago
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="TrackerList TrackerList--globals TrackerList--dark">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="TrackerList__image--global">
+                          <div style="position: absolute; width: 120%; top: -5px; left: -5px;">
+                            <img src="Images/14740.gif" class="WTS align-self-center mr-3 img-fluid" alt="Carlinhus">
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="TrackerList__item--global">
+                          <span class="m-0 TrackerList__name--global">
+                            Carlinhus
+                          </span>
+                          <p class="m-0 TrackerList__value--global">Please let me know if someone has a SoM Necklace.
+                          </p>
+                          <small class="font-weight-bold d-block mt-1">
+                            Sent 5 minutes ago
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-4">
+    <div class="Section Section--hasBackground Section--flexCenter Section--pvpChampion">
+      <div class="container">
+        <div class="row">
+
+          <div class="lg-8 col-12 col-lg-4">
+            <div class="Title Title--heading">
+              <span class="text-light"> <strong>Captain's Champion</strong></span>
+            </div>
+
+            <div class="Title Title__subtitle mb-3">
+              <span class="text-light">The main man! The strongest on the seas at this moment!</span>
+            </div>
+
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="Image Image--pvpChampion">
+                  <img src="Images/14726.gif" alt="PvP Champion">
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="Title__highlight Title__highlight--pvpChampion">
+                  <span class="text-info"> <strong>Vargrym</strong></span>
+
+                </div>
+                <div class="">
+                  <span class="font-weight-bold text-light">Warrior/Warlock</span>
+                  <ul class="list-unstyled">
+                    <li class="font-weight-bold text-success">Lv. 100</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12">
+                <div
+                  class="content-block content-block--dark content-block--small d-flex align-items-center justify-content-between">
+                  <a href="#" class="d-inline-block font-weight-bold p-2">Tournament stats</a>
+                  <i class="icon-chevron-circle-right text-dark p-3"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="first-wave">
+    <svg class="second-wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(8, 10, 10, 0.7"></use>
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(8, 10, 10, 0.5)"></use>
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(8, 10, 10, 0.3)"></use>
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(8, 10, 10, 1)"></use>
+        </g>
+    </svg>
+</div>
+
+<footer class="footer">
+  <div class="row no-gutters">
+      <div class="col-12">
+          <div class="footer__generic">
+              <div class="row">
+                  <div class="col-12 col-lg-3">
+                      <ul class="list-unstyled">
+                          <li><a href="#">Discord</a></li>
+                          <li><a href="#">Facebook</a></li>
+                          <li><a href="#">Contact Us</a></li>
+
+                      </ul>
+                  </div>
+
+                  <div class="col-12 col-lg-3">
+                      <ul class="list-unstyled">
+                          <li><a href="#">Terms</a></li>
+                          <li><a href="#">Refund Policy</a></li>
+                          <li><a href="#">Privacy Policy</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                      <ul class="list-inline">
+                          <li class="list-inline-item">
+                              <a href="https://github.com/Vargriym" target="_blank">
+                                  <img src="Images/github-mark-white.png" width="50" alt="Github">
+                              </a>
+                          </li>
+
+                      </ul>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                      <ul class="list-unstyled">
+                          <li>All your mastering and practicing is done, you've sailed the Red Sea, delve into the deepest 7 Seas! There is no way to escape anymore, your fate is sealed when your prophecy is read!</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
