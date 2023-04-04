@@ -15,7 +15,30 @@ body {
   overflow-x: hidden;
 }
 
- 
+body {
+  -webkit-animation: fadeInAnimation 3s ease;
+  animation: fadeInAnimation 3s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@-webkit-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 .nav-items {
   position: absolute;
