@@ -1706,7 +1706,7 @@ letter-spacing: 1px;
 }
 .btn-success {
   background: #747952;
-  border-color: #747952;
+  border-color: #fff;
   padding: 0.2rem 1rem;
   color: #fff;
   margin-top: 1rem !important;
