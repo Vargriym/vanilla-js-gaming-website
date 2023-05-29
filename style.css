@@ -1698,6 +1698,22 @@ letter-spacing: 1px;
 .TrackerList__image--fortressWidget.odd {
   left: 20px;
 }
+#fortresswar {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  margin-top: 5rem !important;
+}
+.btn-success {
+  background: #747952;
+  border-color: #747952;
+  padding: 0.2rem 1rem;
+  color: #fff;
+  margin-top: 1rem !important;
+  font-size: 1rem;
+  font-weight: 600;
+  text-shadow: 0 0 3px #000;
+}
 .TrackerList__name--global {
   font-size: 12px;
   font-weight: 700;
